@@ -2,18 +2,24 @@
 
 /**
  *
- *  * main - prints the phrase "Programming is like building a multilingual puzzle
+ *  main - Entry point
  *
- *   * Return: 0 if exited properly, non-zero otherwise
+ *  Author: Esidene
  *
- *    */
-
+ *  Return: Always 0 (Success)
+ *
+ */
 int main(void)
 
 {
+		char string[70] = "\"Programming is like building a multilingual puzzle\"";
 
-		puts("\"Programming is like building a multilingual puzzle");
+		puts(string);
 
-			return (0);
+		/* Tried printing it directly */
+
+		puts("\"Programming is like building a multilingual puzzle\"");
+
+ 		return (0);
 
 }
