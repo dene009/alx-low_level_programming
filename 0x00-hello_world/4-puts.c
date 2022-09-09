@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- * main-Entry point 
- *
- * Author:Esidene
- *
- * Return:Always 0 (success)
- */
+*main-Write a C program that prints exactly
+*
+*Author: Esidene
+*this program prints "Programming is like building a multilingual puzzle
+*Return: 0
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	
 	return (0);
 }
+
+
