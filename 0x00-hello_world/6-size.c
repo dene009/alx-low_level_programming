@@ -3,9 +3,9 @@
 /**
  * main-Print sizes of various types
  *
- * Author: Esidene 
+ * Author:Esidene 
  *
- * Return: Always 0 (success)
+ * Return:Always 0 (success)
  */
 int main(void)
 {
