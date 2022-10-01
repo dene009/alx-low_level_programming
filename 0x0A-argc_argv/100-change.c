@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		printf("Error\n");
-
 		return (1);
 	}
 
@@ -28,7 +27,6 @@ int main(int argc, char *argv[])
 	if (total <= 0)
 	{
 		printf("0\n");
-
 		return (0);
 	}
 
@@ -42,7 +40,6 @@ int main(int argc, char *argv[])
 			change += aux;
 			total -= coins[position] * aux;
 		}
-
 		position++;
 	}
 
