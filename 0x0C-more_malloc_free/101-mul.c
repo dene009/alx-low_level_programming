@@ -29,6 +29,7 @@ int _isNumber(char *argv)
 	for (i = 0; argv[i]; i++)
 		if (argv[i] < 48 || argv[i] > 57)
 			return (1);
+
 	return (0);
 }
 
@@ -69,7 +70,6 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	int mul = 0, i, k;
 
 	k = lena;
-
 	for (i = len1 - 1; i >= 0 ; i--)
 	{
 		mul += (a1[i] - '0') * (a2 - '0') + (a3[k] - '0');
@@ -130,7 +130,6 @@ int main(int argc, char *argv[])
 		{
 			_putchar(E[i]);
 		}
-
 		exit(98);
 	}
 	for (len1 = 0; argv[1][len1]; len1++)
@@ -145,7 +144,6 @@ int main(int argc, char *argv[])
 	if (tabres == NULL)
 	{
 		free(tabres);
-
 		return (0);
 	}
 
@@ -156,9 +154,7 @@ int main(int argc, char *argv[])
 	}
 
 	print_array(tabres, lenres);
-
 	free(tabres);
-
 	exit(EXIT_SUCCESS);
 
 	return (0);
